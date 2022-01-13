@@ -9,7 +9,8 @@ function App() {
   return (
     <main>
       <AdminNavBar onChangePage={setPage} />
-      {page === "Form" ? <QuestionForm /> : <QuestionList />}
+      {page === "Form" ? 
+      <QuestionForm /> : <QuestionList /> }
     </main>
   );
 }
